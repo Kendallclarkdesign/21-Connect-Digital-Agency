@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Agency (Template 4)</title>
+    <meta property="og:title" content="Agency (Template 4)" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Noto Sans;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background: var(--dl-color-gray-white);
+
+        fill: var(--dl-color-gray-black);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container1">
+        <header class="home-header1">
+          <header data-thq="thq-navbar" class="home-navbar-interactive">
+            <div class="home-branding1">
+              <img alt="image" src="public/logo.svg" class="home-logo1" />
+              <span class="home-company1">
+                <span class="home-text10">21 Connect</span>
+                <span class="home-text11">Digital</span>
+              </span>
+            </div>
+            <div class="home-items1">
+              <div class="home-links1">
+                <a href="#Service" class="home-link1 nav-link">Work</a>
+                <span class="home-text12 nav-link">About</span>
+                <a href="#Service" class="home-link2 nav-link">Services</a>
+                <a href="#ContactForm4" class="home-link3 nav-link">Contact</a>
+              </div>
+              <button class="home-button1 start-button button">
+                <span class="home-text13">Start a project</span>
+              </button>
+            </div>
+            <div data-thq="thq-burger-menu" class="home-burger-menu">
+              <button class="home-button2 button">
+                <img
+                  alt="image"
+                  src="public/hamburger.svg"
+                  class="home-image1"
+                />
+                <span class="home-text14">Start a project</span>
+              </button>
+            </div>
+            <div data-thq="thq-mobile-menu" class="home-mobile-menu">
+              <div
+                data-thq="thq-mobile-menu-nav"
+                data-role="Nav"
+                class="home-nav"
+              >
+                <div class="home-top">
+                  <div class="home-branding2">
+                    <img alt="image" src="public/logo.svg" class="home-logo2" />
+                    <span class="home-company2">SPYRL</span>
+                  </div>
+                  <div data-thq="thq-close-menu" class="home-menu-close">
+                    <svg viewBox="0 0 1024 1024" class="home-icon1">
+                      <path
+                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="home-items2">
+                  <div class="home-links2">
+                    <span class="nav-link">Work</span>
+                    <span class="nav-link">Services</span>
+                    <span class="nav-link">About</span>
+                    <span class="nav-link">Contact</span>
+                  </div>
+                  <button class="start-button button home-button3">
+                    <span class="home-text19">Start a project</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </header>
+        </header>
+        <header class="home-hero">
+          <div class="home-header2">
+            <img
+              alt="image"
+              src="public/logo%3Djust%20logo-500w.png"
+              loading="lazy"
+              class="home-image2"
+            />
+            <div class="home-container2">
+              <div class="home-container3">
+                <h1 class="home-title1">
+                  <span>Design. Build.</span>
+                  <span class="home-text21">Elevate</span>
+                  <span class="home-text22">.</span>
+                  <br />
+                </h1>
+                <p class="home-description1">
+                  <span>Digital solutions that</span>
+                  <span class="home-text25">connect,</span>
+                  <span></span>
+                  <span class="home-text27">convert</span>
+                  <span>, and</span>
+                  <span class="home-text29">captivate</span>
+                  <span>.</span>
+                  <br />
+                </p>
+              </div>
+              <a href="#ContactForm4" class="home-link4 start-button button">
+                <span class="home-text32">Start a project</span>
+              </a>
+            </div>
+          </div>
+        </header>
+        <div class="home-video"></div>
+        <section class="home-description2">
+          <div class="home-content">
+            <div class="home-text33">
+              <p class="home-paragraph1">
+                <span class="home-text34">
+                  21 Connect Digital - NYC’s Top Creative Web Design &amp;
+                  Development Studio
+                </span>
+                <br />
+              </p>
+              <img
+                alt="image"
+                src="public/logo%3Dblack%20text-200h.png"
+                class="home-image3"
+              />
+              <p class="home-paragraph2">
+                <span>
+                  At 21 Connect Digital, we specialize in designing and
+                  developing modern, user-focused websites that help businesses
+                  grow online. Based in New York City, our team brings your
+                  digital vision to life through custom e-commerce solutions,
+                  responsive design, and seamless payment gateway integration.
+                  Whether you're a local startup or an established brand, we
+                  create engaging web experiences that attract traffic, convert
+                  visitors, and support long-term success.
+                </span>
+                <br />
+                <span>
+                  Let’s build something impactful&nbsp; get in touch today and
+                  take the first step toward your digital future.
+                </span>
+              </p>
+            </div>
+            <a href="#ContactForm4" class="home-link5 start-button button">
+              <span class="home-text39">Get in Touch</span>
+            </a>
+          </div>
+        </section>
+        <section class="home-featured">
+          <div class="home-header3">
+            <h2 class="heading">Featured Work</h2>
+            <div class="home-link6"></div>
+          </div>
+          <div class="home-list">
+            <div class="home-work1">
+              <a
+                href="https://www.dirtbustersexcavation.com/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link7"
+              >
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1675600360059-f5585f20e459?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE2fHxFeGNhdmF0aW9uJTIwU2VydmljZXxlbnwwfHx8fDE3NTI5NTU2MzV8MA&amp;ixlib=rb-4.1.0&amp;w=1300"
+                  class="home-image4"
+                />
+              </a>
+              <div class="home-details1">
+                <div class="home-header4">
+                  <div class="home-heading1">
+                    <a
+                      href="https://www.dirtbustersexcavation.com/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="home-text40"
+                    >
+                      dirtbusters
+                    </a>
+                    <a
+                      href="http://dirtbustersexcavation.com/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="home-link8"
+                    >
+                      <custom-link-wrapper class="home-component10">
+                        <!--CustomLink component-->
+                        <div class="link">
+                          <svg
+                            viewBox="0 0 1024 1024"
+                            class="custom-link-icon1"
+                          >
+                            <path
+                              d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                            ></path>
+                          </svg>
+                        </div>
+                      </custom-link-wrapper>
+                    </a>
+                  </div>
+                  <span class="home-text41">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt.
+                  </span>
+                </div>
+                <div class="home-tags1">
+                  <tag-wrapper class="tag-wrapper">
+                    <!--Tag component-->
+                    <div class="tag-container">
+                      <span class="tag-tag1 tag"><span>Branding</span></span>
+                      <span class="tag-tag2 tag"><span>Branding</span></span>
+                    </div>
+                  </tag-wrapper>
+                  <tag-wrapper-9xmn class="tag-wrapper-9xmn">
+                    <!--Tag component-->
+                    <div class="tag-container1">
+                      <span class="tag-tag3 tag"><span>Framer</span></span>
+                      <span class="tag-tag4 tag"><span>Branding</span></span>
+                    </div>
+                  </tag-wrapper-9xmn>
+                  <tag-wrapper-diiw class="tag-wrapper-diiw">
+                    <!--Tag component-->
+                    <div class="tag-container2">
+                      <span class="tag-tag5 tag">
+                        <span>Business Consulting</span>
+                      </span>
+                      <span class="tag-tag6 tag"><span>Branding</span></span>
+                    </div>
+                  </tag-wrapper-diiw>
+                </div>
+              </div>
+            </div>
+            <div class="home-work2">
+              <a
+                href="https://hausofalt.com/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link9"
+              >
+                <img
+                  alt="image"
+                  src="public/screen%20shot%202025-08-05%20at%204.17.40%20pm-1300w.png"
+                  class="home-image5"
+                />
+              </a>
+              <div class="home-details2">
+                <div class="home-header5">
+                  <div class="home-heading2">
+                    <a
+                      href="https://hausofalt.com/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="home-text42"
+                    >
+                      haus of alT - Fashion Brand
+                    </a>
+                    <custom-link-wrapper-2y2m class="home-component14">
+                      <!--CustomLink component-->
+                      <div class="link">
+                        <svg viewBox="0 0 1024 1024" class="custom-link-icon3">
+                          <path
+                            d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </custom-link-wrapper-2y2m>
+                  </div>
+                  <span class="home-text43">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt.
+                  </span>
+                </div>
+                <div class="home-tags2">
+                  <tag-wrapper-u1h6 class="tag-wrapper-u1h6">
+                    <!--Tag component-->
+                    <div class="tag-container3">
+                      <span class="tag-tag7 tag"><span>Framer</span></span>
+                      <span class="tag-tag8 tag"><span>Figma</span></span>
+                    </div>
+                  </tag-wrapper-u1h6>
+                  <tag-wrapper-yzn6 class="tag-wrapper-yzn6">
+                    <!--Tag component-->
+                    <div class="tag-container4">
+                      <span class="tag-tag9 tag"><span>Strategy</span></span>
+                      <span class="tag-tag10 tag"><span>Branding</span></span>
+                    </div>
+                  </tag-wrapper-yzn6>
+                  <tag-wrapper-mh78 class="tag-wrapper-mh78">
+                    <!--Tag component-->
+                    <div class="tag-container5">
+                      <span class="tag-tag11 tag">
+                        <span>Web Development</span>
+                      </span>
+                      <span class="tag-tag12 tag">
+                        <span>UX/UI Design</span>
+                      </span>
+                    </div>
+                  </tag-wrapper-mh78>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="home-client">
+          <p class="home-text44">Ready to Build Your Next Website or App?</p>
+          <p class="home-text45">
+            <span>
+              At 21 Connect Digital, we help startups, small businesses, and
+              growing brands in New York City create high-performing websites,
+              mobile apps, and AI-powered solutions that drive real results. Our
+              all-in-one service covers everything from custom design and
+              development to hosting, maintenance, and SEO optimization so you
+              can focus on running your business while we handle the tech.
+            </span>
+            <br />
+            <br />
+            <span>
+              Whether you need an e-commerce platform, a booking app, or a fully
+              managed digital presence, we make it fast, seamless, and built to
+              scale.
+            </span>
+          </p>
+        </div>
+        <section class="home-services">
+          <div class="home-header6"><h2 class="heading">SERVICES</h2></div>
+          <div class="home-grid">
+            <service-wrapper
+              class="service-wrapper"
+              rootclassname="serviceundefined"
+            >
+              <!--Service component-->
+              <div id="Service" class="service-service serviceroot-class-name">
+                <h3 class="service-title">
+                  <fragment class="home-fragment10">
+                    <span class="home-text50">Web Development</span>
+                  </fragment>
+                </h3>
+                <span class="service-description">
+                  <fragment class="home-fragment11">
+                    <span class="home-text51">
+                      Fully responsive, custom-built websites.
+                    </span>
+                  </fragment>
+                </span>
+              </div>
+            </service-wrapper>
+            <service-wrapper-ouj7
+              class="service-wrapper-ouj7"
+              rootclassname="serviceundefined"
+            >
+              <!--Service component-->
+              <div id="" class="service-service1 serviceroot-class-name1">
+                <h3 class="service-title1">
+                  <fragment class="home-fragment12">
+                    <span class="home-text52">
+                      <span>UX/UI Design</span>
+                      <br />
+                    </span>
+                  </fragment>
+                </h3>
+                <span class="service-description1">
+                  <fragment class="home-fragment13">
+                    <span class="home-text55">
+                      <span>
+                        Modern, intuitive designs that enhance user experience.
+                      </span>
+                      <br />
+                      <br />
+                    </span>
+                  </fragment>
+                </span>
+              </div>
+            </service-wrapper-ouj7>
+            <service-wrapper-sexh
+              class="service-wrapper-sexh"
+              rootclassname="serviceundefined"
+            >
+              <!--Service component-->
+              <div id="" class="service-service2 serviceroot-class-name5">
+                <h3 class="service-title2">
+                  <fragment class="home-fragment14">
+                    <span class="home-text59">
+                      <span>SEO Optimization</span>
+                      <br />
+                      <br />
+                    </span>
+                  </fragment>
+                </h3>
+                <span class="service-description2">
+                  <fragment class="home-fragment15">
+                    <span class="home-text63">
+                      <span>Get seen. Get traffic. Get results.</span>
+                      <br />
+                      <br />
+                    </span>
+                  </fragment>
+                </span>
+              </div>
+            </service-wrapper-sexh>
+            <service-wrapper-lqgv
+              class="service-wrapper-lqgv"
+              rootclassname="serviceundefined"
+            >
+              <!--Service component-->
+              <div id="" class="service-service3 serviceroot-class-name2">
+                <h3 class="service-title3">
+                  <fragment class="home-fragment16">
+                    <span class="home-text67">E-Commerce</span>
+                  </fragment>
+                </h3>
+                <span class="service-description3">
+                  <fragment class="home-fragment17">
+                    <span class="home-text68">
+                      Beautiful, functional stores that convert.
+                    </span>
+                  </fragment>
+                </span>
+              </div>
+            </service-wrapper-lqgv>
+            <service-wrapper-8f31
+              class="service-wrapper-8f31"
+              rootclassname="serviceundefined"
+            >
+              <!--Service component-->
+              <div id="" class="service-service4 serviceroot-class-name3">
+                <h3 class="service-title4">
+                  <fragment class="home-fragment18">
+                    <span class="home-text69">
+                      <span>AI Integration</span>
+                      <br />
+                    </span>
+                  </fragment>
+                </h3>
+                <span class="service-description4">
+                  <fragment class="home-fragment19">
+                    <span class="home-text72">
+                      <span>
+                        Smart solutions like chatbots &amp; automations.
+                      </span>
+                      <br />
+                      <br />
+                    </span>
+                  </fragment>
+                </span>
+              </div>
+            </service-wrapper-8f31>
+            <service-wrapper-ktgk
+              class="service-wrapper-ktgk"
+              rootclassname="serviceundefined"
+            >
+              <!--Service component-->
+              <div id="" class="service-service5 serviceroot-class-name4">
+                <h3 class="service-title5">
+                  <fragment class="home-fragment20">
+                    <span class="home-text76">
+                      <span>Content Creation</span>
+                      <br />
+                    </span>
+                  </fragment>
+                </h3>
+                <span class="service-description5">
+                  <fragment class="home-fragment21">
+                    <span class="home-text79">
+                      <span>Storytelling that sells your services.</span>
+                      <br />
+                      <br />
+                    </span>
+                  </fragment>
+                </span>
+              </div>
+            </service-wrapper-ktgk>
+          </div>
+        </section>
+        <footer class="home-footer">
+          <section class="home-information">
+            <div class="home-details3">
+              <div class="home-header7">
+                <div class="home-branding3">
+                  <span class="home-company3">
+                    <span class="home-text83">21 connect</span>
+                    <span class="home-text84">Digital&nbsp;</span>
+                  </span>
+                </div>
+                <div class="home-location1"></div>
+              </div>
+              <div class="home-location2">
+                <span class="home-caption">Let's talk</span>
+                <span class="home-value">21connectdigital@gmail.com</span>
+              </div>
+            </div>
+            <div class="home-links3">
+              <span class="home-social social">Linkedin</span>
+            </div>
+          </section>
+          <img alt="image" src="public/footer-1500w.png" class="home-image6" />
+        </footer>
+        <contact-form4-wrapper class="contact-form4-wrapper">
+          <!--ContactForm4 component-->
+          <div
+            id="ContactForm4"
+            class="contact-form4-contact9 thq-section-padding"
+          >
+            <div
+              class="thq-flex-row thq-section-max-width contact-form4-max-width"
+            >
+              <div class="contact-form4-content1 thq-flex-column">
+                <div class="contact-form4-section-title thq-card">
+                  <span class="thq-body-small">
+                    <fragment class="home-fragment24">
+                      <span class="home-text87">Get in touch with us</span>
+                    </fragment>
+                  </span>
+                  <div class="contact-form4-content2">
+                    <h2 class="thq-heading-2">
+                      <fragment class="home-fragment25">
+                        <span class="home-text88">Contact us</span>
+                      </fragment>
+                    </h2>
+                    <span class="thq-body-small">
+                      <fragment class="home-fragment23">
+                        <span class="home-text86">
+                          We'd love to hear from you. Drop us a message and
+                          we'll get back to you as soon as possible.
+                        </span>
+                      </fragment>
+                    </span>
+                  </div>
+                </div>
+                <form class="thq-card">
+                  <label class="contact-form4-text13">
+                    <span>Your email:</span>
+                    <input type="email" name="email" class="input" />
+                  </label>
+                  <label class="contact-form4-text15">
+                    <span>Your message:</span>
+                    <textarea name="message" class="textarea"></textarea>
+                  </label>
+                  <button type="submit" class="contact-form4-button button">
+                    <span>
+                      <fragment class="home-fragment22">
+                        <span class="home-text85">Send</span>
+                      </fragment>
+                    </span>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </contact-form4-wrapper>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
